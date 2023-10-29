@@ -1,4 +1,9 @@
-import { ContainerVaga, VagaTitulo, VagaLink, ContainerVagaHover } from './Vaga'
+import {
+  ContainerVaga,
+  VagaTitulo,
+  VagaLink,
+  ContainerVagaHover
+} from './styles'
 type Props = {
   titulo: string
   localizacao: string

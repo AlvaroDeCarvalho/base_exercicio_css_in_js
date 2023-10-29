@@ -1,5 +1,5 @@
 import { Container } from '../../global'
-import { Form, HeroTitle } from './Hero'
+import { Form, HeroTitle } from './styles'
 
 const Hero = () => (
   <Form>
