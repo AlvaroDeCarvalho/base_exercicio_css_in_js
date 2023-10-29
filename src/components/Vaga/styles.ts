@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 export const ContainerVaga = styled.li`
-  border: 1px solid ${(props) => props.theme.corPrincipal}
-  background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
+  border: 1px solid ${(props) => props.theme.corPrincipal};
+  background-color: ${(props) => props.theme.corSecundaria};
+  color: ${(props) => props.theme.corPrincipal};
   padding: 16px;
   transition: all ease 0.3s;
   border-radius: 8px;
@@ -33,11 +33,11 @@ export const ContainerVagaHover = styled(ContainerVaga)`
 
 
     &:hover a{
-      background-color: var(--cor-principal);
-    color: var(--cor-secundaria);
-    border-color: var(--cor-principal);
-    background-color: var(--cor-secundaria);
-    color: var(--cor-principal);
+      background-color: ${(props) => props.theme.corPrincipal};
+    color:${(props) => props.theme.corSecundaria};
+    border-color: ${(props) => props.theme.corPrincipal};
+    background-color:${(props) => props.theme.corSecundaria};
+    color: ${(props) => props.theme.corPrincipal};
     }
   }
 `
